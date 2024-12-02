@@ -216,8 +216,8 @@ let myPromise = new Promise((resolve, reject) => {
 });
 
 myPromise
-    .then((res) => {
-        console.log("response", res);
+    .then((res1) => {
+        console.log("response", res1);
     })
     .catch((err) => {
         console.log("this is error", err);
